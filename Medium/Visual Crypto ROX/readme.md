@@ -5,7 +5,7 @@
 ### Solution
 
 We are given two images `grain1.png` & `grain2.png` \
-Nothing of value is found while using binwalk or stegsolve or strings
+Nothing of value is found while using binwalk or stegsolve or strings \
 Xor'ng both of them together produces another image 
 
 **SCRIPT**
@@ -13,8 +13,8 @@ Xor'ng both of them together produces another image
 from PIL import Image
 
 # open both photos
-i1 = Image.open('test.png')
-i2 = Image.open('scrambled2.png')
+i1 = Image.open('grain1.png')
+i2 = Image.open('grain2.png')
 
 # get width and height
 width1, height1 = i1.size

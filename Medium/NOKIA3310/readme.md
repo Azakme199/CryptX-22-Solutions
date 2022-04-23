@@ -11,7 +11,7 @@ This turns out to be Dual Tone Multi Frequency (DTMF) signals \
 Passing the audio to https://unframework.github.io/dtmf-detect/ we get\
 `38633386666633777727773333388661`
 
-Pass this to an online Multi-tap Phone SMS decoder like https://www.dcode.fr/multitap-abc-cipher \
+Pass this to an online [Multi-tap Phone (SMS) decoder](https://www.dcode.fr/multitap-abc-cipher) \
 We get **DTMFTONESARFEUN**
 
 
